@@ -1,16 +1,22 @@
-# timetable
+# Time Table Flutter
 
 An app for displaying school time table.
 
-## Getting Started
+## Steps to compile
 
-This project is a starting point for a Flutter application.
+1. Clone this Repository
 
-A few resources to get you started if this is your first Flutter project:
+2. Setup Firebase using [this](https://firebase.google.com/docs/flutter/setup?platform=android) tutorial
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+3. Create a new Cloud Firestore Database using the Firebase console
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Create a new collection named ```time-table```
+
+5. Create new documents for each day inside the collection starting with a capital letter (case-sensitive). Eg: ```Monday```
+
+6. Add 5 string parameters to each document, ```subject1```, ```subject2```, ```subject3```, ```subject4```, ```attendance```. The last one being the link of the attendance (set it to ```about:blank``` if you don't want it). If you don't have any classes on a particular day, leave them empty.
+
+TODO: add dynamic subject numbers option
+
+The final Firebase database should look like this - 
+![Final Firebase Database](/readme-images/final_db.png)
