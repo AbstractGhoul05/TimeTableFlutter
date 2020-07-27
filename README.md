@@ -20,3 +20,7 @@ TODO: add dynamic subject numbers option
 
 The final Firebase database should look like this - 
 ![Final Firebase Database](/readme-images/final_db.png)
+
+7. Update ```sdk.dir``` and ```flutter.sdk``` in ```android/local.properties``` to your android sdk directory and flutter sdk directory respectively
+
+8. Build app using [this](https://flutter.dev/docs/deployment/android) tutorial
