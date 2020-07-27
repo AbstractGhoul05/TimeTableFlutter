@@ -1,3 +1,4 @@
+<img align="left" width="80" height="80" src="readme-images/icon.png" alt="Resume application project app icon">
 # Time Table Flutter
 
 An app for displaying school time table.
